@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+}
+body{
+	 background: #fff;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+}
+.interior{
+	max-width: 100%;
+	padding: 10px;
+	margin: auto;
+}
+.logo{
+	float: left;
+	padding: 4px 10px 0;
+}
+.logo img{
+	height: 60px;
+}
+.logo img:hover{
+	transform: scale(1.1);
+}
+.navegacion{
+	float: right;
+	display: flex;
+	align-items: center;
+	min-height: 90px;
+	z-index: 1000;
+}
+.navegacion ul{
+	list-style: none;
+	padding: 0 10px;
+}
+.navegacion ul li{
+	display: inline-block;
+	position: relative;
+	transition: .3s linear;
+	z-index: 1000;
+}
+.navegacion ul li:hover{
+	transform: scale(1.1);
+}
+.navegacion ul li a{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 35px;
+	transition: .3s linear;
+}
+
+.navegacion ul li a:hover{
+	color: #00c9bd;
+	transform: scale(1.1);
+}
+.navegacion ul li:hover .hijos{
+	display: block;
+}
+.navegacion .submenu .hijos{
+	display: none;
+	background: #555;
+	position: absolute;
+	width: 100%;
+    
+}
+.navegacion .submenu .hijos li{
+	display: block;
+	overflow: hidden;
+	border-bottom: none;
+}
+.navegacion .submenu .hijos li a{
+	display: block;
+    padding: 20px 0px;
+}
+
+
+
+.venta{
+    position: absolute;
+	left: 0%;
+    top: 0%;
+	padding: 300px 100px 0;
+}
+.venta img{
+	height: 350px;
+}
+.venta2{
+    position: absolute;
+	left: 0%;
+    top: 0%;
+	padding: 300px 450px 0;
+}
+.venta2 img{
+	height: 350px;
+}
+.venta3{
+    position: absolute;
+	left: 0%;
+    top: 0%;
+	padding: 300px 800px 0;
+}
+.venta3 img{
+	height: 350px;
+}
+.venta4{
+    position: absolute;
+	left: 0%;
+    top: 0%;
+	padding: 300px 1150px 0;
+}
+.venta4 img{
+	height: 350px;
+}
+.venta5{
+    position: absolute;
+	left: 0%;
+    top: 0%;
+	padding: 325px 1450px 0;
+}
+.venta5 img{
+	height: 300px;
+}
+.texto{
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 600px;
+    padding: 5px 100px 0;
+}
+.texto2{
+    width: 1850px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 10px;
+    padding: 5px 200px 0;
+}
